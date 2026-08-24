@@ -1,0 +1,49 @@
+name,kind,lat,lon,country,note
+# ---------------------------------------------------------------------------
+# EUROPEAN VALIDATION SET
+# These plants appear in Leguijt et al. (2025, ACP 25, 555-574), which
+# published TROPOMI-derived CO emissions alongside E-PRTR reported values.
+# Use them as the positive control: if your detector cannot see these, it is
+# not working. Coordinates are approximate (to ~0.05 deg) -- verify before use.
+# ---------------------------------------------------------------------------
+ArcelorMittal Gent,steel,51.13,3.75,BE,in Leguijt et al. 2025
+ArcelorMittal Dunkirk,steel,51.02,2.29,FR,in Leguijt et al. 2025
+Tata Steel IJmuiden,steel,52.46,4.60,NL,in Leguijt et al. 2025
+ThyssenKrupp Duisburg,steel,51.48,6.72,DE,in Leguijt et al. 2025
+ArcelorMittal Taranto,steel,40.52,17.20,IT,in Leguijt et al. 2025
+ArcelorMittal Gijon,steel,43.55,-5.70,ES,reported 2020 cut not seen from space
+US Steel Kosice,steel,48.63,21.16,SK,in Leguijt et al. 2025
+# ---------------------------------------------------------------------------
+# INDIAN STEEL -- THE ANGLE THAT IS YOURS
+# India is the world's second-largest crude steel producer and has no
+# E-PRTR-equivalent facility-level reporting, so satellite estimates cannot be
+# checked against reported numbers the way Leguijt et al. checked Europe.
+# That is exactly the gap COGNITO runs into when it goes global.
+# Coordinates approximate -- verify before use.
+# ---------------------------------------------------------------------------
+Bhilai Steel Plant,steel,21.21,81.38,IN,SAIL
+Rourkela Steel Plant,steel,22.24,84.88,IN,SAIL
+Bokaro Steel Plant,steel,23.67,86.15,IN,SAIL
+Durgapur Steel Plant,steel,23.54,87.29,IN,SAIL
+IISCO Burnpur,steel,23.66,86.94,IN,SAIL
+Tata Steel Jamshedpur,steel,22.79,86.20,IN,
+Tata Steel Kalinganagar,steel,20.95,86.05,IN,
+JSW Vijayanagar,steel,15.17,76.68,IN,Toranagallu
+JSW Dolvi,steel,18.72,73.03,IN,
+Vizag Steel RINL,steel,17.63,83.20,IN,
+JSPL Angul,steel,20.87,85.10,IN,
+JSPL Raigarh,steel,21.87,83.42,IN,
+AMNS Hazira,steel,21.11,72.66,IN,
+# ---------------------------------------------------------------------------
+# URBAN -- the other half of COGNITO
+# ---------------------------------------------------------------------------
+Delhi,urban,28.61,77.21,IN,your own study region
+Kolkata,urban,22.57,88.36,IN,
+Mumbai,urban,19.08,72.88,IN,
+# ---------------------------------------------------------------------------
+# NEGATIVE CONTROLS -- clean background, no large CO source
+# If these score high, your detector is finding artefacts, not plumes.
+# ---------------------------------------------------------------------------
+Nainital ARIES,background,29.36,79.46,IN,your own measurement site
+Central Pacific,background,0.00,-150.00,--,ocean background
+Sahara interior,background,23.00,15.00,LY,"desert, high albedo"

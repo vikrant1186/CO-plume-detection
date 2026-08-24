@@ -1,0 +1,8 @@
+Schuit, B. J., Maasakkers, J. D., Bijl, P., Mahapatra, G., van den Berg, A.-W.,
+Pandey, S., Lorente, A., Borsdorff, T., Houweling, S., Varon, D. J., McKeever,
+J., Jervis, D., Girard, M., Irakulis-Loitxate, I., Gorrono, J., Guanter, L.,
+Cusworth, D. H., and Aben, I.: Automated detection and monitoring of methane
+super-emitters using satellite data, Atmos. Chem. Phys., 23, 9071-9098, 2023.
+https://doi.org/10.5194/acp-23-9071-2023
+
+Training data: https://doi.org/10.5281/zenodo.13903869  (CC-BY 4.0)
