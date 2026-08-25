@@ -43,14 +43,7 @@ src/selftest.py            end-to-end check on synthetic plumes, no downloads
 
 ## Interpreting the output
 
-`interpretation/` holds four documents. The first is the one to read if you
-only read one:
-
-| File | What it is |
-|---|---|
-| `CO_plume_detection_plain_guide.pdf` | How the method works, step by step, with flowcharts. |
-| `report_1_the_code.pdf` | What every source file does and why. |
-| `report_3_the_results.pdf` | The numbers, figure by figure. |
+Please go through CO_plume_findings_explained.pdf
 
 ## Quick start
 
