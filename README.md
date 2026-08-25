@@ -23,7 +23,7 @@ the network cannot know which gas it is looking at. So:
 > **Does a plume-morphology detector trained on CH4 transfer to CO?**
 The results are discussed in the "CO_plume_detection_plain_guide.pdf"
 
-> **To see the figures (Plume score along with missing pixels) for each site**
+> **To see the figures (Plume score along with missing pixels) for each site:**
 go through **figures** folder"
 
 
