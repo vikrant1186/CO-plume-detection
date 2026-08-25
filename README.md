@@ -65,7 +65,7 @@ you reuse this code.** See [Known issues](#known-issues), and
 [`interpretation/CO_plume_findings_explained.docx`](interpretation/) for the
 whole story in plain language.
 
-![scene completeness confound](figures/analysis/rank_diagnosis.png)
+![scene completeness confound](figures/rank_diagnosis.png)
 
 ## Known issues
 
@@ -113,8 +113,6 @@ existing tiles at the true facility position lifts European steel from +0.14 to
 > ⚠️ **The committed `co_detections.json` and figures predate this fix.** The
 > code here is corrected; the stored outputs are not. Re-running
 > `fetch_co_tiles.py` is the first thing to do with this repository.
-
-![tile geometry bug](figures/analysis/tile_geometry_bug.png)
 
 ## Why CO is harder than CH₄
 
