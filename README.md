@@ -7,6 +7,7 @@ species-agnostic.
 
 **Vikrant Tomar** · ARIES, Nainital · [vikrant1186.github.io](https://vikrant1186.github.io)
 
+This work is just an attempt in way to understand plume detection. I have utilised open source tools and knowledge to produce results.
 ---
 
 ## The question
@@ -34,8 +35,8 @@ src/get_training_data.py   download Schuit et al. labelled scenes (Zenodo, CC-BY
 src/dataset.py             normalisation, 8× dihedral augmentation, torch Dataset
 src/model.py               the CNN (reconstruction — see caveat below)
 src/train.py               train on CH₄, benchmark against the published scores
-src/fetch_co_tiles.py      pull 32×32 TROPOMI CO + NO₂ + MODIS FRP tiles via GEE
-src/predict_co.py          run the CH₄-trained model on CO, flag fire contamination
+src/fetch_co_tiles.py      pull 32×32 TROPOMI CO + NO2 + MODIS FRP tiles via GEE
+src/predict_co.py          run the CH4-trained model on CO, flag fire contamination
 src/browse.py              one contact sheet per site, filtered by score
 src/selftest.py            end-to-end check on synthetic plumes, no downloads
 ```
