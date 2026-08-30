@@ -25,7 +25,7 @@ the network cannot know which gas it is looking at. So:
 The results are discussed in the "CO_plume_detection_plain_guide.pdf"
 
 > **To see the figures (Plume score along with missing pixels) for each site:**
-go through **figures** folder"
+go through **/figures/browse** folder"
 
 
 ## Pipeline
