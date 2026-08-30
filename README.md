@@ -37,6 +37,7 @@ src/model.py               the CNN (reconstruction — see caveat below)
 src/train.py               train on CH₄, benchmark against the published scores
 src/fetch_co_tiles.py      pull 32×32 TROPOMI CO + NO2 + MODIS FRP tiles via GEE
 src/predict_co.py          run the CH4-trained model on CO, flag fire contamination
+src/predict_stacked.py     screen scenes on completeness, stack, score the composite
 src/browse.py              one contact sheet per site, filtered by score
 src/selftest.py            end-to-end check on synthetic plumes, no downloads
 ```
@@ -66,6 +67,9 @@ python src/fetch_co_tiles.py --targets targets/facilities.csv \
 
 # 5. the actual experiment
 python src/predict_co.py --model plume_cnn.pt --tiles data/co_tiles.npz
+
+# 6. screen on completeness, stack, and score the composites
+python src/predict_stacked.py --model plume_cnn.pt --tiles data/co_tiles.npz    
 ```
 
 ## Targets
